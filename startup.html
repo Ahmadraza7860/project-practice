@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        background-color: black;
+    }
+
+    #nav-bar {
+        height: 50px;
+
+        background-color: #e09006;
+    }
+
+    #main-nav {
+        background-color: #e09006;
+    }
+
+    a {
+        text-decoration: none;
+        float: right;
+        margin: 10px;
+        color: white;
+        background-color: #e09006;
+
+    }
+
+    span {
+        color: #fff;
+        background-color: #e09006;
+        margin: 20px;
+        font-size: large;
+        font-weight: bold;
+
+
+    }
+
+    .section {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 30px;
+        color: white;
+    }
+
+    .left {
+        flex-basis: 50%;
+    }
+
+    .right {
+        flex-basis: 50%;
+    }
+
+    h2 {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 20px;
+    }
+
+    button {
+        font-size: 16px;
+        padding: 10px 20px;
+        background-color: #e09006;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+
+    input {
+        border: 2px solid #ccc;
+        border-radius: 5px;
+        padding: 10px;
+        font-size: 16px;
+        outline: none;
+    }
+
+    input {
+        border-color: #333;
+    }
+
+    #h2 {
+        width: 200px;
+        color: rgb(255, 170, 0);
+        border: solid 2px orange;
+    }
+
+    #yoyo {
+        width: 100%;
+        margin: 10px;
+    }
+
+    #name {
+        width: 45%;
+        margin: 10px;
+    }
+
+    #submit {
+        margin-left: 50%;
+    }
+
+    table,
+    th,
+    td {
+       
+        border: 1px solid rgb(243, 180, 7);
+    }
+    td{
+
+        margin: 50px;
+    }
+</style>
+
+<body>
+    <div id="nav-bar">
+        <nav id="main-nav">
+
+
+            <span>Startup</span>
+
+            <a href="">Home</a>
+            <a href="">Aboutus</a>
+            <a href="">Contact us</a>
+            <a href="">Login</a>
+
+        </nav>
+    </div>
+
+    <div class="section">
+        <div class="left">
+            <h2 style="border: #e09006 solid;">Startup Landing Page</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed accumsan libero quis nibh consectetur
+                malesuada. Nam suscipit elit eget nisl bibendum, eu egestas eros dapibus.</p>
+            <button>Login</button>
+        </div>
+        <div class="right">
+            <img src="image.jpg" alt="Image">
+        </div>
+    </div>
+
+
+
+    <div>
+        <h1 id="h2">Contact Us</h1>
+        <input id="yoyo" type="text" placeholder="Name">
+        <input id="yoyo" type="text" placeholder="email">
+        <div id="yo2">
+            <input type="text" id="name" name="name" placeholder="Mobile Number">
+            <input type="text" id="name" name="name" placeholder="City">
+            <button id="submit">Submit form</button>
+        </div>
+    </div>
+
+
+    <div style="color: white;">
+
+        <table style="width: 70%; height: 20rem; margin-left: 10%; margin-right: 10%;">
+            <thead>
+                <tr>
+                    <th>SNO.</th>
+                    <th>Startup Name</th>
+                    <th>Startup Discription</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1.</td>
+                    <td>wowindia</td>
+                    <td>A startup with wow ideas</td>
+                </tr>
+                <tr>
+                    <td>2.</td>
+                    <td>wowindia</td>
+                    <td>A startup with wow ideas</td>
+                </tr>
+                <tr>
+                    <td>3.</td>
+                    <td>wowindia</td>
+                    <td>A startup with wow ideas</td>
+                </tr>
+                <tr>
+                    <td>4.</td>
+                    <td>wowindia</td>
+                    <td>A startup with wow ideas</td>
+                </tr>
+                <tr>
+                    <td>5.</td>
+                    <td>wowindia</td>
+                    <td>A startup with wow ideas</td>
+                </tr>
+                <tr>
+                    <td>6.</td>
+                    <td>wowindia</td>
+                    <td>A startup with wow ideas</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">final footer</td>
+                </tr>
+            </tfoot>
+        </table>
+
+    </div>
+
+</body>
+
+</html>
